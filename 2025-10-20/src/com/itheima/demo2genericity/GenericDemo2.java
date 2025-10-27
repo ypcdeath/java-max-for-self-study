@@ -1,5 +1,7 @@
 package com.itheima.demo2genericity;
 
+import com.itheima.demo4genericity.MyArrayList;
+
 public class GenericDemo2 {
     public static void main(String[] args) {
         //目标：创建自己的泛型类

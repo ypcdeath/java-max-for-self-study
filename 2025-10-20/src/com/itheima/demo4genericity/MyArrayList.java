@@ -1,4 +1,4 @@
-package com.itheima.demo2genericity;
+package com.itheima.demo4genericity;
 
 import java.util.ArrayList;
 

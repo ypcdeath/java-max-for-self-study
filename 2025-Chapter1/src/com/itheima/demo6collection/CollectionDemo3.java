@@ -8,7 +8,7 @@ public class CollectionDemo3 {
     public static void main(String[] args) {
         //目标： 集合的3种遍历方式
         //一.迭代器遍历
-        Collection<String> names = new ArrayList<>();
+        Collection<String> names = new ArrayList<>();   
         names.add("张三");
         names.add("李四");
         names.add("王五");

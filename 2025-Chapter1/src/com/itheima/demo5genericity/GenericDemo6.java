@@ -16,7 +16,7 @@ public class GenericDemo6 {
         Integer b = Integer.valueOf(129);
         System.out.println(i == a);
 
-        //自动装箱
+        //自动装箱n
         Integer c = 12;
         Integer d = 12;
         System.out.println(c == d);

@@ -7,16 +7,18 @@ public class Room {
     //实例代码块 创建对象时执行 初始化对象
     {
         //准备点数 和花色
-        String nums[] = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
+        String sizes[] = {"3","4","5","6","7","8","9","10","J","Q","K","A","2"};
         String colors[] = {"♠","♥","♣","♦"};
-        for(String num : nums){
+        int num = 0;
+        for(String size : sizes){
+            num++;
             for(String color : colors){
                 //创建牌对象 然后扔进集合中去
-                cards.add(new Card(num,color));
+                cards.add(new Card(size,color,num));
             }
         }
-        cards.add(new Card("","🃏"));//小王
-        cards.add(new Card("","👲"));//大王
+        cards.add(new Card("","🃏",++num));//小王
+        cards.add(new Card("","👲",++num));//大王
         System.out.println(cards);
     }
 
@@ -48,12 +50,15 @@ public class Room {
 
         //拿三张底牌
         List<Card> lastCards = cards.subList(cards.size()-3,cards.size());
-
+        System.out.println("底牌为："+lastCards);
         //抢地主
+        System.out.println("令狐白是地主");
         lhb.addAll(lastCards);
 
         //对牌排序
-
+        sortCards(lhb);
+        sortCards(lhc);
+        sortCards(lhh);
 
         //看牌
         for(Map.Entry<String,List<Card>> entry : players.entrySet()){
@@ -63,4 +68,19 @@ public class Room {
         }
 
     }
+
+    private void sortCards(List<Card> cards){
+        Collections.sort(cards, (o1,o2)-> o2.getNum() - o1.getNum());
+    }
 }
+
+
+
+
+
+
+
+
+
+
+

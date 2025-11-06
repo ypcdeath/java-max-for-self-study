@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 public class Card {
     private String size;
     private String color;
+    private int num;
 
     @Override
     public String toString() {

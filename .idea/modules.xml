@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2025-Chapter1/2025-10-20.iml" filepath="$PROJECT_DIR$/2025-Chapter1/2025-10-20.iml" />
       <module fileurl="file://$PROJECT_DIR$/2025-Chapter2/2025-Chapter2.iml" filepath="$PROJECT_DIR$/2025-Chapter2/2025-Chapter2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2025-Chapter3/2025-Chapter3.iml" filepath="$PROJECT_DIR$/2025-Chapter3/2025-Chapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaMax.iml" filepath="$PROJECT_DIR$/JavaMax.iml" />
     </modules>
   </component>

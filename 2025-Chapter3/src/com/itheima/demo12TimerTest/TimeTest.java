@@ -1,11 +1,11 @@
-package com.itheima.demo11TimerTest;
+package com.itheima.demo12TimerTest;
 
 public class TimeTest {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws Exception {
+        timeTest();
     }
 
-    public TimeTest() throws InterruptedException {
+    public static void timeTest() throws Exception {
         //获取当前时间戳
         long start = System.currentTimeMillis();
         Thread.sleep(100);

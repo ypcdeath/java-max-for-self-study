@@ -1,0 +1,16 @@
+==========Student==========
+name=张三
+age=18
+hobby=动漫
+==========Dog==========
+name=小白
+age=4
+hobby=吃shi
+==========Teacher==========
+name=小王
+age=20
+hobby=小说
+salary=8000.0
+className=高三3班
+sex=女
+phone=123456789

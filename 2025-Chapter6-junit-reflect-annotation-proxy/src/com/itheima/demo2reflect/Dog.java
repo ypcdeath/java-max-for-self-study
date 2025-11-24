@@ -1,9 +1,11 @@
 package com.itheima.demo2reflect;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 
 public class Dog {
     private String name;

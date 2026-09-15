@@ -26,7 +26,7 @@
 ### 🚀 运行环境
 - **JDK 版本**：Java 8 / Java 11 / Java 17 *(请根据实际情况保留一个)*
 - **开发工具**：IntelliJ IDEA / Eclipse
-- **构建工具**：Maven *(如果项目中使用了 Maven，保留此项)*
+- **构建工具**：Maven 
 
 ---
 
@@ -48,4 +48,4 @@ This repository tracks my **Java self-study and continuous learning journey**. I
 ### 🚀 Environment Requirements
 - **JDK Version**: Java 8 / Java 11 / Java 17 *(Keep the one you use)*
 - **IDE**: IntelliJ IDEA / Eclipse
-- **Build Tool**: Maven *(Keep this if applicable)*
+- **Build Tool**: Maven 
